@@ -1,0 +1,46 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .myNav .my-logo img {
+        width: 120px;
+    }
+
+    .myNav .my-ul li a {
+        font: 500 17px/1.5 var(--font-default);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .myNav .navbar-toggler {
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .myNav .my-ul {
+        margin-top: 16px;
+    }
+
+    .myNav .my-ul li {
+        padding: 2px 0;
+        text-align: end;
+    }
+    .myNav .my-ul li a {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .myNav .my-logo img {
+        width: 100px;
+    }
+
+    .myNav .my-ul li a {
+        font: 500 15px/1.5 var(--font-default);
+    }
+}
